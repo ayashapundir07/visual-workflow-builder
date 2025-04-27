@@ -6,10 +6,8 @@ A modern, interactive workflow builder application that allows users to create a
 
 - Drag and drop interface for creating workflows
 - Node-based UI with customizable blocks
-- Real-time connection validation
 - Save and load workflows as JSON
 - Modern, responsive design
-- Type-safe implementation with TypeScript
 
 ## Getting Started
 
@@ -44,8 +42,6 @@ src/
   ├── components/       # Reusable UI components
   ├── nodes/           # Custom node components
   ├── store/           # State management
-  ├── types/           # TypeScript type definitions
-  ├── utils/           # Utility functions
   └── App.tsx          # Main application component
 ```
 
@@ -55,7 +51,6 @@ src/
 - TypeScript
 - ReactFlow for node-based UI
 - Material-UI for components
-- Zustand for state management
 
 ## Development
 
@@ -63,6 +58,3 @@ src/
 - `npm build` - Build for production
 - `npm test` - Run tests
 
-## License
-
-This project is private and confidential as part of the Signoz recruitment process.
